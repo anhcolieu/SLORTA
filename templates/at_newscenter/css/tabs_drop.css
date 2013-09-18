@@ -1,0 +1,223 @@
+/*########### START DROPDOWN ###########*/
+H3.js_heading A IMG
+{
+	border: 0;
+}
+H3.js_heading, #bottom H3, .moduletable H3, #nav H3
+{
+}
+.moduletable_js
+{
+	background-color: transparent;
+	background-image: url(../images/backgrounds/well_bg.png);
+	margin-bottom: 20pt;
+}
+.moduletable_js, .moduletable
+{
+	margin-bottom: 5px;
+}
+.js_heading, .js_heading
+{
+	position: relative;
+	display: block;
+	padding: 5px 10px;
+	margin: 0;
+	font-size: 1.1em;
+	border-radius: 0px;
+}
+H3.js_heading A
+{
+	display: block;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	padding: 5px 5px 0 0;
+	text-decoration: none;
+	background: none;
+}
+.module_content
+{
+	padding: 10px;
+	margin-top: -1px;
+	border: 1px solid #DEDEDE;
+}
+.no
+{
+	font-size: 1px;
+}
+.slide
+{
+	height: auto !important;
+}
+H3.js_heading
+{
+	color: #FFF;
+	font-size: 100%;
+	font-weight: bold;
+	line-height: 25px;
+	background-color: #666666;
+	background-image: none;
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+/*########### END DROPDOWN ###########
+########### START TABS ###########*/
+.tabouter A
+{
+	color: #FFF;
+	text-decoration: underline;
+}
+.tabouter A:hover
+{
+	color: #FFF;
+	text-decoration: none;
+}
+.tabouter
+{
+	border: 0 solid;
+	overflow: hidden;
+	margin: 20px 0 0;
+}
+UL.tabs
+{
+	padding: 0;
+}
+UL.tabs LI.tab
+{
+	list-style-type: none;
+	text-transform: uppercase;
+	display: inline;
+	padding: 0;
+}
+UL.tabs LI.tab A
+{
+	text-decoration: none;
+}
+.tabcontent
+{
+	padding: 10pt;
+}
+/*+++++++++++++++++++++++++++++   Module Tabs / Pagebreak Tabs / Contact Tabs ++++++++++++++++*/
+UL.tabs
+{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+DL.tabs DT, DL.tabs DD
+{
+	margin: 0;
+	padding: 7px 5px;
+}
+DL.tabs DT H3
+{
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+}
+DL.tabs DT
+{
+	position: relative;
+	z-index: 1;
+}
+UL.tabs LI, DL.tabs DT
+{
+	list-style-type: none;
+	float: left;
+	width: auto;
+	padding: 0;
+	display: block;
+	margin: 0 3px 0 0;
+	font-size: 1em;
+}
+UL.tabs LI A:link, UL.tabs LI A:visited, DL.tabs DT H3 A:link, DL.tabs DT H3 A:visited
+{
+	text-decoration: none;
+	padding: 7px 5px;
+	margin: 0px;
+	display: block;
+	font-size: 0.9em;
+	font-weight: normal;
+	border-radius: 0px 0px 0px 0px;
+}
+/*++++++ TABS LINK ACTIVE ++++++++++++*/
+UL.tabs LI A.linkopen:link, UL.tabs LI A.linkopen:visited, DL.tabs DT.open H3 A:link, DL.tabs DT.open H3 A:visited
+{
+	color: #FFF;
+	font-weight: bold;
+	background-color: transparent;
+}
+.tabcontent, DIV.current
+{
+	padding: 30px 20px;
+	margin: -1px 0 0;
+	border-radius: 0 0px 0px 0px;
+	clear: left;
+}
+DIV.current
+{
+	position: relative;
+	z-index: 0;
+	top: -1px;
+}
+.tabcontent:focus
+{
+	outline: none;
+}
+.tabopen
+{
+	display: block;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.tabclosed
+{
+	display: none;
+}
+.tabcontent UL
+{
+	padding: 0;
+}
+.tabcontent UL LI
+{
+	list-style-type: none;
+}
+/*+++++++++++++++++   Tabs ++++++++++++++++++++++*/
+UL.tabs LI, DL.tabs DT H3 A:link, DL.tabs DT H3 A:visited
+{
+	background: #FFF repeat-x;
+	border-bottom: 1px solid #FF4A00;
+}
+UL.tabs LI A:link, UL.tabs LI A:visited, DL.tabs DT A
+{
+	color: #333;
+	border: 0 transparent;
+}
+UL.tabs LI A:hover, UL.tabs LI A:active, UL.tabs LI A:focus
+{
+	color: #000;
+}
+/*+++++ TABS CONTENT BACKGROUND ++++++++++++++++++++++*/
+.tabcontent, DIV.current
+{
+	background: #FF4A00;
+	color: #FFF;
+	border: 0 transparent;
+}
+.tabcontent .linkclosed
+{
+	color: #000;
+	border-bottom: 0 none transparent;
+}
+UL.tabs LI A.linkopen, DL.tabs DT.open H3 A:link, DL.tabs DT.open H3 A:visited
+{
+	background: #FFF;
+	color: #333;
+	border-radius: 0px 0px 0px 0px;
+}
+UL.tabs LI A.linkclosed:hover, UL.tabs LI A.linkclosed:active, UL.tabs LI A.linkclosed:focus, UL.tabs LI A.linkopen:hover, UL.tabs LI A.linkopen:active, UL.tabs LI A.linkopen:focus
+{
+	color: #F5F5F5;
+	background: #FF4A00;
+}
+/*########### END TABS ###########*/
